@@ -1,0 +1,25 @@
+.createlead-buttons__saveButton,
+.ma-createMain-form .createlead-buttons__saveButton {
+    box-shadow: none !important;
+    cursor: pointer;
+}
+
+.pipeline-required {
+    margin: 3px 0px 0px 12px
+}
+
+.MuiDataGrid-columnHeaders {
+    background: var(--ma-tablebg-color);
+    color: var(--ma-primarymain-color);
+    font-family: 'Poppins', sans-serif !important;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.createlead-heading .Arrowbtn {
+    cursor: pointer;
+}
+
+.ma-mainTop-box .createlead-heading {
+    text-transform: capitalize;
+}

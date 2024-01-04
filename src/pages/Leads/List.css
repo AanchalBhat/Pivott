@@ -1,0 +1,46 @@
+.ma-import img {
+  width: 82px;
+}
+
+.ma-import-okay-text .name {
+  font-family: "Poppins";
+  font-style: normal;
+}
+
+
+.stack_value {
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.ma-content-footer{
+  background-color: var(--ma-bglight-color);
+  width: 680px;
+  height: 67px;
+}
+.leadT .MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation24.MuiDialog-paper.MuiDialog-paperScrollPaper.MuiDialog-paperWidthSm.css-1t1j96h-MuiPaper-root-MuiDialog-paper {
+  max-width: 600px;
+  width: 100%;
+  max-height: 450px;
+}
+
+.ma-piplinepopup-top{
+  padding: 0 !important;
+}
+
+/* popup style */
+.ma-leadImport-popup .MuiDialog-paper.MuiDialog-paperScrollPaper.MuiDialog-paperWidthSm.MuiPaper-elevation {
+  max-width: 800px;
+}
+.ma-content-popup {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  text-align: center;
+  gap: 24px;
+  padding: 10px 40px 60px;
+}
+
+/* end style */

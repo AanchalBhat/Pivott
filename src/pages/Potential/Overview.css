@@ -1,0 +1,4 @@
+.ma-overView-tab .ma-tabChange-tab .MuiTabs-indicator{
+    background: var(--ma-darksecondary-color);
+    height: 5px;
+}

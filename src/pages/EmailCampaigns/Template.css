@@ -1,0 +1,194 @@
+  .campaign-container {
+      float: left;
+  }
+
+  /* add template card  */
+
+  .add-content {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      max-width: 300px;
+      max-height: 333px;
+      margin: auto;
+      overflow: hidden;
+      border: 1px solid #E8E8ED;
+      cursor: pointer;
+  }
+
+  .add-contentImage-box {
+      width: 100%;
+      height: 100%;
+      height: 251px;
+  }
+
+  .add-content-image {
+      width: 100%;
+      height: 100%;
+      width: 74px;
+      margin: auto;
+      display: block;
+  }
+
+  /* on hover templates styling */
+
+  .campaign-card-title {
+      color: #191A47;
+      text-align: center;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      padding: 21px;
+      background-color: #FFF;
+  }
+
+  .content {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      max-width: 300px;
+      max-height: 333px;
+      margin: auto;
+      overflow: hidden;
+      background-color: #F9F9FB;
+      border: 1px solid #E8E8ED;
+  }
+
+  .content .content-overlay {
+      background: #191A47;
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      left: 0;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      opacity: 0;
+      -webkit-transition: all 0.4s ease-in-out 0s;
+      -moz-transition: all 0.4s ease-in-out 0s;
+      transition: all 0.4s ease-in-out 0s;
+  }
+
+  .content:hover .content-overlay {
+      opacity: 0.8;
+  }
+
+  .content-image {
+      width: 100%;
+      height: 100%;
+      width: 177px;
+      height: 251px;
+      margin: auto;
+      display: block;
+      overflow: hidden;
+  }
+
+  .content-details {
+      position: absolute;
+      text-align: center;
+      width: 100%;
+      top: 50%;
+      left: 50%;
+      opacity: 0;
+      -webkit-transform: translate(-50%, -50%);
+      -moz-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      -webkit-transition: all 0.3s ease-in-out 0s;
+      -moz-transition: all 0.3s ease-in-out 0s;
+      transition: all 0.3s ease-in-out 0s;
+      cursor: pointer;
+  }
+
+  .content:hover .content-details {
+      top: 50%;
+      left: 50%;
+      opacity: 1;
+  }
+
+  .content:hover .dot-more-icon {
+      display: block;
+  }
+
+  .content-details p,
+  .content-details span {
+      color: #fff;
+      font-size: 12px;
+      top: 15px;
+  }
+
+  .fadeIn-bottom {
+      top: 80%;
+  }
+
+  .dot-more-icon {
+      padding: 1px 2px;
+      background-color: #FFF;
+      border-radius: 4px;
+      border: 1px solid #D1D1DA;
+      position: absolute;
+      top: 15px;
+      right: 15px;
+      display: none;
+  }
+
+  .dot-more-icon svg {
+      color: #191A47;
+  }
+
+  .content-details .campaign-selectThis-btn {
+      min-width: 120px;
+      height: 42px;
+      border-radius: 4px;
+      border: 1px solid #D1D1DA;
+      background: #FFF;
+      color: #191A47;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+      top: 80px;
+      text-transform: none;
+  }
+
+  .content-details .campaign-selectThis-btn:hover {
+      border: 1px solid #D1D1DA;
+      background: #FFF;
+      color: #191A47;
+  }
+
+  /* popup css */
+  .ma-addTemplate-popup .MuiDialog-paper.MuiDialog-paperScrollPaper {
+      padding: 12px 12px 36px;
+      max-width: calc(100vw - 10px) !important;
+      max-height: calc(100% - 10px);
+      height: auto;
+  }
+
+  .ma-campaign-leadTransferTitle {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: #FFF;
+      height: 60px;
+      color: var(--ma-primarymain-color);
+  }
+
+  .ma-campaign-leadTransferTitle label {
+      font-family: "Poppins", sans-serif !important;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 26px;
+      color: var(--ma-primarymain-color);
+      margin: 10px;
+  }
+
+  .ma-campaign-leadTransferTitle svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium.css-i4bv87-MuiSvgIcon-root {
+      color: #000;
+  }
+
+  .ma-campaign-leadTransferTitle .ma-campaignCross-btn {
+      color: #000;
+      position: relative;
+  }
+  

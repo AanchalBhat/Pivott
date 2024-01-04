@@ -1,0 +1,721 @@
+.mainContainer p.Mui-error,
+.ma-login-top p.MuiFormHelperText-contained {
+    margin-left: 0;
+}
+
+.mainContainer p.MuiFormHelperText-contained {
+    margin-left: 0;
+}
+
+/* new ui start 5apr */
+
+.ma-mainCenter-image {
+    height: 100%;
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    width: 100%;
+    vertical-align: middle;
+}
+
+
+.ma-mainScreen-image {
+    background: url(../../assets/login-bg.jpg) no-repeat center center;
+    background-size: cover;
+    padding: 40px 44px 40px 30px;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+    display: grid;
+    align-content: center;
+    min-height: 100vh;
+
+}
+
+
+.ma-contentImg-set {
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.ma-contentImg-set img {
+    padding-bottom: 20px;
+}
+
+.ma-contentImg-set h2 {
+    color: var(--ma-white-color);
+    font-weight: 600;
+}
+
+.ma-contentImg-set h2 span {
+    color: var(--ma-yellow-color);
+}
+
+.ma-mainForm-contect .ma-form-login.FormInputs .ma-main-login input {
+    padding: 14px 10px;
+    color: var(--ma-primarymain-color);
+    border-radius: 0;
+    font-family: "Poppins", sans-serif !important;
+    font-size: 14px;
+}
+
+.ma-mainForm-contect .ma-form-login input.MuiInputBase-input {
+    font-family: "Poppins", sans-serif !important;
+}
+
+.ma-mainForm-contect .ma-form-login.FormInputs .ma-main-login input:focus {
+    background: var(--ma-tablebg-color);
+}
+
+.ma-form-heading {
+    text-align: center;
+    font-weight: 600;
+    color: var(--ma-primarymain-color);
+    font-size: 26px;
+    padding-bottom: 35px;
+}
+
+.ma-mainForm-contect .ma-form-login.FormInputs .ma-main-login input {
+    padding: 14px 10px;
+    color: var(--ma-primarymain-color);
+    border-radius: 0;
+    font-family: "Poppins", sans-serif !important;
+    font-size: 14px;
+}
+
+
+.ma-mainForm-contect .ma-form-login.FormInputs .ma-main-login input:focus {
+    background: var(--ma-tablebg-color);
+}
+
+.ma-main-login .ma-Input-type {
+    margin-bottom: 15px;
+}
+
+.ma-main-login .ma-Input-type svg {
+    color: var(--ma-primarymain-color);
+    font-size: 20px;
+}
+
+.ma-main-login .ma-form-login .ma-google-btn button {
+    box-shadow: none;
+    background: var(--ma-bglight-color);
+}
+
+.ma-main-login .MuiAutocomplete-root .MuiOutlinedInput-root {
+    padding: 0px !important
+}
+
+.ma-login-btn.forgot_btn {
+    margin-bottom: 14px;
+}
+
+.ma-login-btn .loginBtn {
+    font-weight: 500;
+    font-size: 16px;
+    height: 48px;
+    line-height: 1.5;
+    letter-spacing: 0.5px;
+    box-shadow: none;
+    transition: all 0.5s;
+    letter-spacing: 0.5px;
+    background: var(--ma-mainbtn-color);
+}
+
+.ma-login-btn .loginBtn:hover {
+    box-shadow: 0 5px 14px -10px #040824e0;
+}
+
+.Reset_loginBtn {
+    font-weight: 600;
+    font-size: 16px;
+    height: 48px;
+    line-height: 1.5;
+    letter-spacing: 0.5px;
+    box-shadow: none;
+    transition: all 0.5s;
+}
+
+.middle_text_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.middle_text_container .checkboxTxt span {
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 500;
+    color: var(--ma-secondarytext-color);
+    margin-left: unset !important;
+    display: flex;
+    align-items: center;
+}
+
+.ma-main-login .middle_text_container label span {
+    font-size: 14px !important;
+    font-family: "Poppins", sans-serif;
+    color: var(--ma-secondarytext-color);
+}
+
+.forgotPassword {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 18px;
+    color: var(--ma-darksecondary-color);
+    cursor: pointer;
+    margin: unset;
+}
+
+.tryIt {
+    color: var(--ma-darksecondary-color)
+}
+
+
+.ma-tryIt-free {
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: auto;
+    margin: auto;
+    padding-bottom: 35px;
+}
+
+.ma-tryIt-free p {
+    margin-bottom: 0;
+    font-size: 14px;
+    color: var(--ma-secondarytext-color);
+}
+
+.ma-tryIt-free p span {
+    color: var(--ma-darksecondary-color);
+    font-weight: 500;
+    padding-left: 5px;
+    cursor: pointer;
+}
+
+
+.access {
+    width: 100%;
+    text-align: center;
+    min-width: 200px;
+    position: relative;
+}
+
+.access span {
+    background: var(--ma-white-color);
+    position: relative;
+    z-index: 1;
+    padding: 15px;
+    display: inline-block;
+    font-weight: 600;
+    color: var(--ma-primarymain-color);
+    font-size: 14px;
+}
+
+.access:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    background: var(--ma-bglight-color);
+    height: 1px;
+    width: 100%;
+}
+
+.ma-socialBtn-main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    padding-bottom: 60px;
+}
+
+
+.ma-socialBtn-main button {
+    text-transform: initial;
+    padding: 8px;
+    font-size: 13px;
+}
+
+.ma-socialBtn-main button img {
+    margin-right: 5px;
+}
+
+
+.ma-google-btn {
+    margin-bottom: 15px;
+}
+
+.ma-google-btn button {
+    box-shadow: none;
+}
+
+.ma-window-btn button {
+    box-shadow: none;
+}
+
+
+/* signup css start */
+
+.mainContainer svg {
+    color: var(--ma-primarymain-color);
+}
+
+
+.ma-signupbg-image {
+    background: url(../../assets/signup-bg.png) no-repeat center center;
+    background-size: cover;
+    padding: 40px 44px 40px 30px;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+    display: grid;
+    align-content: center;
+}
+
+.mainContainer .PhoneInputCountry {
+    background: #F1F1F4;
+    width: 102px;
+    padding-left: 15px;
+    margin-right: 0;
+    border-radius: 4px 0 0 4px;
+}
+
+.mainContainer .PhoneInputCountryIcon {
+    margin-right: 41px;
+}
+
+.mainContainer .PhoneInput {
+    border: 1px solid #D1D1DA;
+    border-radius: 4px;
+}
+
+
+.mainContainer .ma-country-code {
+    position: relative;
+}
+
+.mainContainer .cardContainer input {
+    padding: 14px 5px;
+    border-radius: 0 4px 4px 0;
+    font-size: 14px;
+    border: 0;
+}
+
+
+.mainContainer .cardContainer .MuiSelect-select {
+    padding: 14px 10px;
+    border-radius: 0;
+    font-size: 14px;
+}
+
+
+
+
+.checkbox_container h6 span {
+    color: var(--ma-secondarytext-color);
+}
+
+.checkbox_container h6 span a {
+    text-decoration: none;
+    color: var(--ma-darksecondary-color);
+}
+
+.checkbox_container .ma-check-box svg {
+    color: var(--ma-lightgray-color);
+    border-radius: 6px;
+    transition: all 0.3s;
+}
+
+.checkbox_container .Mui-checked svg {
+    color: var(--ma-darksecondary-color) !important;
+    transition: all 0.3s;
+}
+
+.checkbox_container {
+    display: flex;
+    align-items: center;
+}
+
+
+.infoTxt {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: var(--ma-secondarytext-color);
+    margin: 0px !important;
+}
+
+.quickInfoTxt {
+    display: flex;
+    padding: 20px 30px;
+    align-items: center;
+    gap: 5px;
+}
+
+.signUpBtn {
+    background: var(--ma-mainbtn-color);
+    color: var(--ma-white-color);
+    font-size: 16px;
+    font-weight: 600;
+    height: 42px;
+}
+
+.signUpRow .signUpBtn {
+    font-weight: 500;
+    font-size: 16px;
+    height: 48px;
+    line-height: 1.5;
+    letter-spacing: 0.5px;
+    box-shadow: none;
+    transition: all 0.5s;
+    letter-spacing: 0.5px;
+}
+
+.signUpRow .signUpBtn:hover {
+    box-shadow: 0 5px 14px -10px #040824e0;
+}
+
+.ma-topBottom-spacer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0px;
+}
+
+.success_box {
+    height: 103px;
+    width: 103px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    background: #D0F6E6;
+    border: 1px solid #36B37E;
+    border-radius: 50%;
+    margin: 0px auto;
+}
+
+.success_mail_color {
+    color: #2C42B5;
+}
+
+.resendOtp {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 18px;
+    color: var(--ma-darksecondary-color);
+    cursor: pointer;
+    margin-top: 1rem
+}
+
+/* verify email css end */
+
+
+/* forgot password css start */
+
+/*new css */
+.ma-main-forgot {
+    background: var(--ma-bglight-color);
+    min-height: 100vh;
+}
+
+.ma-forgot-pass {
+    padding: 15px 40px 10px;
+}
+
+.ma-main-forgot .ma-verify-box {
+    padding: 30px;
+    box-shadow: 0px 5px 16px -6px #24242430;
+    text-align: center;
+    background: var(--ma-white-color);
+    border-radius: 4px;
+}
+
+.ma-main-forgot .ma-verify-box h3 {
+    padding: 20px 15px 15px;
+    margin-bottom: 0;
+    font-size: 26px;
+    color: var(--ma-primarymain-color);
+}
+
+.tryIt {
+    color: var(--ma-darksecondary-color)
+}
+
+.ma-main-forgot .ma-verify-box p {
+    font-size: 14px;
+    margin-bottom: 0;
+    margin-left: 0;
+    color: var(--ma-secondarytext-color);
+}
+
+.ma-main-forgot .ma-verify-box p a {
+    text-decoration: none;
+    color: var(--ma-darksecondary-color)
+}
+
+.ma-reset-pass {
+    padding: 15px 0;
+}
+
+.ma-login-btn.forgot_btn {
+    margin-bottom: 14px;
+}
+
+.Reset_loginBtn {
+    font-weight: 600;
+    font-size: 16px;
+    height: 48px;
+    line-height: 1.5;
+    letter-spacing: 0.5px;
+    box-shadow: none;
+    transition: all 0.5s;
+}
+
+.reset_goback_text {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: #2C42B5;
+    line-height: 21px;
+    cursor: pointer;
+}
+
+.ma-textfield {
+    padding: 0 4rem;
+}
+
+.conatainer_update {
+    margin-bottom: 20px;
+}
+
+.mobile_loginImg {
+    display: none;
+}
+
+.countryCodeValue {
+    position: absolute;
+    top: 16px;
+    left: 46px;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+@media screen and (max-width: 991px) {
+    .cardContainer {
+        padding: 10px 15px;
+    }
+    .ma-socialBtn-main {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .ma-topBottom-spacer {
+        padding: 50px 0px;
+    }
+}
+
+/* responsiveness */
+
+@media screen and (max-width: 899px) {
+    .ma-mainCenter-image {
+        max-height: auto;
+        min-height: auto;
+    }
+    .ma-login-top {
+        max-height: 100vh;
+    }
+
+    .ma-mainScreen-image,
+    .ma-signupbg-image {
+        background-image: none;
+        min-height: 5vh;
+    }
+
+    .mainContainer .signUpRow {
+        padding-bottom: 50px;
+    }
+
+    .ma-contentImg-set {
+        width: 100%;
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        padding-top: 0;
+        box-sizing: border-box;
+    }
+
+    .ma-contentImg-set h2 {
+        color: var(--ma-primarymain-color);
+        font-size: 32px;
+        font-weight: 700;
+    }
+
+    .ma-contentImg-set h2 span {
+        color: #FFAB00;
+    }
+
+    .loginImg {
+        display: none;
+    }
+
+    .mobile_loginImg {
+        display: block;
+        width: 100%;
+        max-width: 120px;
+        margin-bottom: 5px;
+    }
+
+    .ma-loginThumb-img {
+        display: none;
+    }
+
+    .ma-form-login {
+        padding: 5px 100px;
+    }
+
+    .ma-form-signup {
+        padding: 5px 80px;
+    }
+
+    .ma-form-login .ma-form-heading,
+    .ma-signup-container .ma-form-heading {
+        padding-bottom: 15px;
+    }
+
+    .ma-signupbg-image .ma-contentImg-set h2 {
+        font-size: 26px;
+    }
+
+    .ma-signupbg-image {
+        padding-bottom: 5px;
+    }
+
+    .ma-tryIt-free {
+        bottom: 8px;
+        padding-bottom: 10px;
+    }
+
+    .ma-form-login .access {
+        margin-top: 20px;
+    }
+
+    .ma-signupbg-image .access {
+        margin-top: 0;
+        padding-top: 0;
+    }
+
+    .mainContainer .signUpRow {
+        padding-bottom: 0;
+    }
+
+    .ma-forgot-pass {
+        text-align: center;
+    }
+
+    .ma-main-forgot {
+        background-color: transparent;
+    }
+
+    .ma-main-forgot .ma-verify-box {
+        box-shadow: none;
+        width: 100%;
+        max-width: 500px;
+        margin: auto;
+    }
+
+    .mail {
+        height: 80px;
+        width: 80px;
+    }
+
+    .mail img {
+        width: 36px;
+        height: 36px;
+    }
+
+    .ma-main-forgot .ma-verify-box h3 {
+        font-weight: 600;
+    }
+
+    .ma-main-forgot .ma-verify-box p {
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    .ma-login-btn .loginBtn {
+        height: 42px;
+    }
+    .ma-reset-pass .forgot_input div {
+        height: 45px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .ma-textfield {
+        padding: 0rem;
+    }
+
+    .ma-form-login,
+    .ma-form-signup {
+        padding: 5px 24px;
+    }
+
+    .cardContainer .MuiGrid-item {
+        flex-basis: 100%;
+        max-width: 100%;
+        width: 100%;
+        flex: 100% 0 0;
+    }
+
+    .ma-main-forgot .ma-verify-box h3 {
+        font-weight: 600;
+    }
+
+    .ma-main-forgot .ma-verify-box p {
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    .ma-login-btn .loginBtn {
+        height: 42px;
+    }
+    .ma-otp .mt-otp-input {
+        max-width: 250px;
+        height: 42px; 
+    }
+    .ma-main-forgot .ma-verify-box p {
+        width: 100%;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+
+
+@media screen and (max-width: 480px) {
+
+    .ma-form-login,
+    .ma-form-signup {
+        padding: 5px 24px;
+    }
+
+    .cardContainer .MuiGrid-item {
+        flex-basis: 100%;
+        max-width: 100%;
+        width: 100%;
+        flex: 100% 0 0;
+    }
+}

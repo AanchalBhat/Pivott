@@ -1,0 +1,28 @@
+.leadChildBox .ma-allfilter-list .ma-filterTabs-two {
+  border: 1px solid var(--ma-lightgray-color);
+  border-radius: 8px;
+  padding: 0;
+}
+
+.ma-filterTabs-two button svg {
+  font-size: 18px;
+}
+
+.ma-allfilter-list .ma-bgActive-bg {
+  padding: 4px 8px;
+}
+
+.ma-allfilter-list .filterSelect.ma-pipeline-filter {
+  margin-left: 0;
+}
+
+.ma-topHeader-leads-box-size {
+  width: 42rem;
+}
+
+.dropdown .btn-primary:hover {
+  background: var(--ma-white-color);
+  color: var(--ma-primarymain-color);
+  border-color: #808080;
+
+}

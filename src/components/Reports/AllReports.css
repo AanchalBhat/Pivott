@@ -1,0 +1,40 @@
+  .ma-stepTop-main {
+    gap: 20px;
+  }
+  .ma-stepTop-main .MuiStep-root{
+    padding: 0;
+  }
+  .ma-stepTop-main .ma-steper-no .Mui-active {
+    color: var(--ma-primarymain-color) !important;
+  }
+  .ma-stepTop-main .ma-steper-no .Mui-disabled{
+    color: #5E5F7E;
+    font-weight: 500;
+  }
+  .ma-stepTop-main .ma-steper-no .Mui-disabled svg{
+    font-size: 28px;
+    font-weight: 600;
+    border-color: #5E5F7E;
+  }
+  .ma-stepTop-main .ma-steper-no .Mui-active svg {
+    color: var(--ma-darksecondary-color) !important;
+    font-size: 34px;
+    font-weight: 600;
+  }
+  .ma-stepTop-main .ma-steper-no .Mui-completed svg{
+    color: var(--ma-darksecondary-color) !important;
+    font-size: 28px;
+    border-color: var(--ma-darksecondary-color);
+  }
+  .ma-stepTop-main .ma-steper-no .Mui-active .MuiStepIcon-text{
+    fill: #fff !important;
+  }
+  .ma-stepTop-main .ma-steper-no .Mui-disabled .MuiStepIcon-text{
+    fill: #5E5F7E;
+  }
+  .ma-stepTop-main .ma-steper-no .MuiStepConnector-line{
+    color: #8C8DA3;
+  }
+  .createlead-detail-grid p.MuiFormHelperText-contained{
+    margin-left: 0 !important;
+  }

@@ -1,0 +1,47 @@
+.ma-accountUser-detail{
+    background: var(--ma-white-color);
+}
+.ma-convertEdit-bar-acc {
+    padding: 15px;
+    flex-direction: row;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+.ma-account-heading{
+    background: var(--ma-white-color);
+}
+.ma-convertEdit-bar-acc button {
+    font-family: 'Poppins', sans-serif;
+    border: 1px solid var(--ma-lightgray-color);
+    background: var(--ma-white-color);
+    border-radius: 8px;
+    color: var(--ma-secondarytext-color);
+    align-items: center;
+    display: flex;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 4px 10px;
+    letter-spacing: 0;
+    margin-left: 15px;
+    min-width: fit-content;
+    margin-right: 0;
+}
+.flexRow{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.ma-profile_tabs .MuiTabs-flexContainer button{
+    text-transform: capitalize;
+
+}
+
+.ma-profile_tabs .MuiTabs-flexContainer button.Mui-selected{
+    color: #2c42b5;
+    font-weight: 500;
+    background: #f9f9fb;
+}

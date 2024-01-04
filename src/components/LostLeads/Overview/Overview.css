@@ -1,0 +1,75 @@
+.pipeline-overview-block h4 {
+  font-family: "Poppins", sans-serif !important;
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 15px;
+  text-transform: capitalize;
+  color: var(--ma-primarymain-color);
+}
+
+.ma-allfilter-list .ma-lost-lead {
+  margin-left: 0 !important;
+}
+
+.makeStyles-ContactMade-6 p {
+  font-size: 14px;
+}
+
+.MuiDialog-paper.MuiDialog-paperScrollPaper.MuiDialog-paperWidthSm.MuiPaper-elevation {
+  max-width: 600px;
+  height: auto;
+  background: var(--ma-white-color);
+}
+
+.makeStyles-ContactMade-9 .ma-lost-on {
+  color: var(--ma-error-color);
+}
+
+/* ma-breadcrumb-lost start */
+.ma-breadcrumb-lost {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  text-align: center;
+  margin-top: 20px;
+}
+
+.ma-breadcrumb-lost a {
+  text-decoration: none;
+  font-size: 13px;
+  line-height: 36px;
+  padding: 0px 15px;
+  position: relative;
+}
+
+.ma-breadcrumb-lost a:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: -18px;
+  width: 36px;
+  height: 36px;
+  transform: scale(0.707) rotate(45deg);
+  z-index: 1;
+  box-shadow: 2px -2px 0 1px rgb(255 255 255), 3px -3px 0 -1px rgb(255 255 255);
+}
+
+.ma-breadcrumb-lost a:last-child:after {
+  content: none;
+}
+
+.ma-flat-step-lost a,
+.ma-flat-step-lost a:after {
+  background: #FF5630;
+  color: var(--ma-white-color);
+  transition: all 0.5s;
+}
+
+.ma-flat-step-lost a:hover,
+.ma-flat-step-lost a.active,
+.ma-flat-step-lost a:hover:after,
+.ma-flat-step-lost a.active:after {
+  background: #FFAB00;
+  color: var(--ma-primarymain-color);
+}
+
+/* ma-breadcrumb-lost end */

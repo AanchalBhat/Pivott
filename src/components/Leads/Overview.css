@@ -1,0 +1,23 @@
+.details_Text {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: var(--ma-primarymain-color);
+    margin-left: 30px;
+    padding-top: 30px;
+}
+
+.address_Text {
+    font-weight: 600;
+    font-size: 20px;
+    color: var(--ma-primarymain-color );
+    margin-top: 40px;
+    margin-left: 22px;
+}
+
+.ma-editDetails{
+    background-color: white;
+    color: var(--ma-mainprimary-color);
+    border: 1px solid #191A47;
+    border-radius: 8px;
+}

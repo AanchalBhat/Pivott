@@ -1,0 +1,133 @@
+.MuiFormGroup-root.MuiFormGroup-row.\31 23.css-qfz70r-MuiFormGroup-root {
+    gap: 30px;
+    justify-content: left;
+}
+
+.ma-dataList-box .ma-datapemission-list {
+    height: 450px;
+    overflow-y: scroll;
+    border-radius: 0;
+}
+
+.ma-datapemission-list .ma-dataPermissioninner-list {
+    padding: 10px 20px;
+    border-bottom: 1px solid #E8E8ED;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.ma-listGroup-item label .MuiFormControlLabel-label {
+    color: #191A47;
+    font-size: 14px;
+}
+
+.ma-datapemission-list .ma-listGroup-item {
+    grid-gap: 40px;
+    gap: 40px;
+    flex-wrap: nowrap;
+    white-space: nowrap;
+    overflow: auto;
+    padding: 0 10px;
+}
+
+.ma-datapemission-list .ma-listGroup-item::-webkit-scrollbar {
+    width: 0;
+    background: transparent
+}
+
+.ma-datapermission-title span {
+    font-weight: 500;
+    color: #191A47;
+    display: flex;
+    overflow: auto;
+    white-space: nowrap;
+}
+
+/* .ma-datapemission-list .ma-dataPermissioninner-list:first-child {
+    border-top: 1px solid #e8e8ed;
+} */
+
+.ma-overView-tab .ma-role-tabbar {
+    display: flex;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.ma-role-tabbar .MuiListItem-padding {
+    width: auto;
+    text-align: center;
+    color: #5E5F7E;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 15px 20px;
+}
+
+.ma-overView-tab .ma-role-tabbar .ma-active-tab {
+    background-color: #F9F9FB;
+    border-bottom: 4px solid #2C42B5;
+    padding: 15px 20px 11px;
+    color: #2C42B5;
+}
+
+.ma-overView-tab .ma-role-tabbar .ma-active-tab span {
+    font-weight: 500;
+}
+
+.ma-role-userDetail button {
+    box-shadow: none;
+    margin-left: 16px;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 8px 20px;
+}
+
+
+
+.ma-role-userDetail .ma-deactive-btn {
+    background: #F1E0AC !important;
+    color: #8F700E;
+}
+
+.ma-role-userDetail .ma-deactive-btn:hover {
+    background-color: #F1E0AC;
+    color: #8F700E;
+    box-shadow: none;
+}
+
+.ma-role-userDetail .ma-activate-btn {
+    background: #F9F9FB;
+    color: #00A4BC;
+    border: 1px solid #E8E8ED;
+}
+
+.ma-role-userDetail .ma-activate-btn:hover {
+    background: #F9F9FB;
+    color: #00A4BC;
+    box-shadow: none;
+}
+
+.ma-role-userDetail .ma-deleteUser-btn:hover {
+    background: #FF5630;
+    color: #fff;
+    box-shadow: none;
+}
+
+.ma-role-userDetail .ma-deleteUser-btn {
+    background: #FF5630;
+    color: #fff;
+}
+
+.ma-role-userDetail {
+    margin-right: 15px;
+}
+
+.ma-roles-editBtn-box {
+    justify-content: space-between;
+}
+
+.roleTxt {
+    font-size: 20px;
+    font-weight: 500;
+    color: #191A47;
+    line-height: 30px;
+}

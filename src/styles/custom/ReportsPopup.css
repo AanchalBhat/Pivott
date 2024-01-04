@@ -1,0 +1,82 @@
+
+.ma-popup-leadTransferTitle {
+    display: flex;
+    justify-content: space-between;
+    background: var(--ma-mainbtn-color);
+    height: 60px;
+    color: var(--ma-white-color);
+  }
+  
+  .ma-popup-leadTransferTitle label {
+    font-family: "Poppins", sans-serif !important;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    color: var(--ma-white-color);
+  }
+  
+  .ma-popup-leadTransferTitle svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium.css-i4bv87-MuiSvgIcon-root {
+    color: var(--ma-white-color);
+  }
+  
+  .ma-popup-leadTransferTitle .ma-popupCross-btn {
+    color: var(--ma-white-color);
+    position: relative;
+    left: 25px;
+  }
+  
+
+  .popup-listMDbutton .cancel:hover {
+    background: var(--ma-primarymain-color);
+    color: var(--ma-white-color);
+    border-color: var(--ma-primarymain-color);
+  }
+  
+  .popup-listMDbutton .cancel {
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color: var(--ma-primarymain-color);
+    text-transform: capitalize;
+    font-size: 16px;
+    transition: all 0.5s;
+    display: inline-block;
+    border: 1px solid var(--ma-tableborder-color);
+    min-width: 120px;
+    max-width: 120px;
+    width: 100%;
+    line-height: 26px;
+    background: var(--ma-white-color);
+  }
+  
+  .popup-listMDbutton {
+    border-top: 1px solid var(--ma-tableborder-color);
+    padding: 15px 20px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #fff;
+  }
+  
+  .popup-listMDbutton .disabled,
+  .popup-listMDbutton .applay {
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    box-shadow: none;
+    text-transform: capitalize;
+    font-size: 16px;
+    min-width: 120px;
+    max-width: 150px;
+    width: 100%;
+    margin-right: 20px;
+  }
+  
+  .popup-listMDbutton .applay {
+    background: var(--ma-mainbtn-color) !important;
+    color: var(--ma-white-color);
+  }
+  
+  .popup-listMDbutton .disabled {
+    background: var(--ma-lightgray-color) !important;
+    color: var(--ma-darksecondary-color);
+  }

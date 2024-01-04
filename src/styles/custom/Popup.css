@@ -1,0 +1,65 @@
+
+.leadT .MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation24.MuiDialog-paper.MuiDialog-paperScrollPaper.MuiDialog-paperWidthSm.css-1t1j96h-MuiPaper-root-MuiDialog-paper {
+    max-width: 600px;
+    width: 100%;
+    max-height: 650px;
+  }
+  
+  .leadT div h2:nth-of-type(1) {
+    margin-bottom: 15px;
+  
+  }
+  
+  .leadT div h2 {
+    margin-bottom: 0;
+    font-weight: 600;
+    font-size: 22px;
+    color: var(--ma-primarymain-color);
+    padding-bottom: 0;
+  }
+  
+  .leadT div p {
+    color: var(--ma-secondarytext-color);
+    font-size: 14px;
+    font-weight: 400;
+    /* padding-bottom: 15px; */
+  }
+
+
+.ma-discard-leadTransferTitle {
+    display: flex;
+    justify-content: space-between;
+    background: var(--ma-mainbtn-color);
+    height: 60px;
+    color: var(--ma-white-color);
+  }
+  
+  .ma-discard-leadTransferTitle label {
+    font-family: "Poppins", sans-serif !important;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    color: var(--ma-white-color);
+  }
+  
+  .ma-discard-leadTransferTitle svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium.css-i4bv87-MuiSvgIcon-root {
+    color: var(--ma-white-color);
+  }
+  
+  .ma-discard-leadTransferTitle .ma-cross-btn {
+    color: var(--ma-white-color);
+    position: relative;
+    bottom: 10px;
+    left: 25px;
+  }
+  
+  .leadT div .ma-discard-root {
+    margin-bottom: 0px;
+    font-weight: 600;
+    font-size: 22px;
+    color: var(--ma-primarymain-color) ;
+    padding: 16px 24px;
+    padding-bottom: 0;
+    line-height: 1.6;
+    letter-spacing: 0.0075em;
+  }

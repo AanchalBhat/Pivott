@@ -1,0 +1,780 @@
+/* notes */
+
+.note_text {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+.selected_Img {
+  width: 100%;
+  height: auto;
+  margin: auto;
+  min-width: 240px;
+  max-width: 240px;
+}
+
+.newnote_Text {
+  color: #414151;
+  font-weight: 550;
+  font-size: 14px;
+  margin-right: 6px;
+}
+
+.bySayyed {
+  color: #5e5f7e;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.ma-main-note {
+  padding: 30px;
+  min-height: 50vh;
+}
+
+.lap_container {
+  display: flex;
+  align-items: center;
+}
+
+.ma-note-img {
+  height: 100%;
+  margin-right: 25px;
+  max-height: 150px;
+  max-width: fit-content;
+  width: fit-content;
+  /* background: white; */
+  /* border-radius: 5px; */
+  box-shadow: 0 0 2px 0 #07071814;
+  text-align: center;
+  vertical-align: middle;
+  /* padding: 5px; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.time_text,
+.Time_text {
+  font-weight: 400;
+  font-size: 12px;
+  /* margin-left: 25px; */
+  color: #5e5f7e;
+  margin-bottom: 0;
+}
+
+.Time_text {
+  line-height: 18px;
+  color: #8c8da3;
+}
+
+.paragraph_txt {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: var(--ma-primarymain-color);
+  margin-top: 15px;
+  word-wrap: break-word;
+  margin-bottom: 0;
+  transition: all 0.5s ease;
+}
+
+.tree_image {
+  width: 250px;
+  height: 150px;
+}
+
+.bottom_container {
+  display: flex;
+  align-items: center;
+}
+
+.image_size {
+  max-width: 250px;
+  max-height: 120px;
+}
+
+.Note_box_container {
+  width: 76%;
+  max-width: 100%;
+  height: calc(100% - 0px);
+  background: var(--ma-tablebg-color);
+  border: 1px solid var(--ma-tableborder-color);
+  box-sizing: border-box;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  padding: 25px;
+}
+
+.Note_box_container:last-child {
+  margin-bottom: 0;
+}
+
+.ma-divider-status {
+  position: relative;
+}
+
+.ma-divider-status:before {
+  content: "";
+  position: absolute;
+  height: 50px;
+  width: 1px;
+  background: #e8e8ed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  margin: auto;
+}
+
+.readMore {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  color: #2c42b5;
+  margin-right: 9px;
+  margin-bottom: 2px;
+}
+
+/* tasks */
+
+.addTask_btn {
+  width: fit-content;
+  background: var(--ma-primarymain-color);
+  border-radius: 4px;
+  color: var(--ma-white-color);
+  font-weight: 600;
+  padding: 9px 20px;
+  border: 0;
+  font-size: 16px;
+}
+
+.show_task .open_Tasks_txt {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  margin-top: 30px;
+  margin-bottom: 24px;
+  font-size: 18px;
+  color: var(--ma-primarymain-color);
+}
+
+.completed_txt {
+  font-family: "Poppins";
+  font-style: normal;
+  /* font-weight: 550; */
+  margin-top: 30px;
+  margin-bottom: 10px;
+  color: #2c42b5;
+  cursor: pointer;
+}
+
+.box_Container {
+  width: 100%;
+  max-width: 77%;
+  min-width: 77%;
+  height: calc(100% - 0px);
+  background: #f9f9fb;
+  border: 1px solid #e8e8ed;
+  box-sizing: border-box;
+  border-radius: 4px;
+  padding: 25px;
+  margin-bottom: 20px;
+}
+
+.box_Container:last-child {
+  margin-bottom: 0;
+}
+
+.newTask_txt {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  color: #535370;
+  margin-bottom: 0;
+}
+
+.buttons_contianer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.ma-task-btn {
+  display: flex;
+  width: 100%;
+  max-width: 350px;
+  justify-content: flex-end;
+}
+
+.sayyed_Txt img {
+  vertical-align: text-top;
+  margin-right: 8px;
+  width: 100%;
+  max-width: 20px;
+}
+
+.user_text_in_btn {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22px;
+  color: var(--ma-primarymain-color);
+}
+
+.sayyed_Txt {
+  height: 34px;
+  background: var(--ma-white-color);
+  border: 1px solid #d1d1da;
+  border-radius: 8px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22px;
+  color: var(--ma-primarymain-color);
+  margin-right: 14px;
+  padding: 0 10px;
+}
+
+.edit_icon_btn,
+.delete_icon_btn {
+  width: 34px;
+  height: 34px;
+  background: var(--ma-white-color);
+  border: 1px solid #d1d1da;
+  border-radius: 8px;
+}
+
+.edit_icon_btn {
+  margin-right: 14px;
+}
+
+.edit_icon_btn:hover,
+.delete_icon_btn:hover,
+.sayyed_Txt:hover {
+  background: var(--ma-tableborder-color);
+}
+
+.edit_icon_btn svg {
+  font-size: 20px;
+  color: var(--ma-primarymain-color);
+}
+
+.delete_icon_btn svg {
+  font-size: 20px;
+  color: var(--ma-primarymain-color);
+}
+
+.delete_icon_btn img {
+  width: 14px;
+}
+
+.newtask_Status {
+  width: 100%;
+  padding: 24px 35px;
+}
+
+.started_txt {
+  width: 100px;
+  height: 15px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 550;
+  font-size: 13px;
+  color: #535370;
+  margin-left: 9px;
+  margin-top: 17px;
+  margin-bottom: 0;
+}
+
+.staretd_container {
+  max-width: 360px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  padding: 5px;
+}
+
+.holderTasks {
+  max-width: 350px;
+  width: 100%;
+  background: var(--ma-white-color);
+  border: 1px solid #e8e8ed;
+  border-radius: 6px;
+  margin-bottom: 8px;
+}
+
+.status_txt {
+  max-width: 80px;
+  width: 100%;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: #8c8da3;
+  margin-left: 35px;
+}
+
+.notstarted_txt {
+  height: 21px;
+  font-style: normal;
+  font-weight: 550;
+  font-size: 14px;
+  line-height: 21px;
+  color: #535370;
+  margin-top: 15px;
+  margin-left: 30px;
+  margin-bottom: 0;
+}
+
+.Priority_txt {
+  max-width: 45px;
+  width: 100%;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: #8c8da3;
+  margin-left: 110px;
+}
+
+.vl {
+  width: 38px;
+  height: 0px;
+  border: 1px solid #e8e8ed;
+  transform: rotate(90deg);
+  transform: rotate(90deg);
+  margin-left: 40px;
+  margin-top: 30px;
+}
+
+.newtask_Status ul {
+  padding-left: 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-bottom: 0;
+  align-items: center;
+  align-content: center;
+}
+
+.newtask_Status ul li h6 {
+  margin-bottom: 0;
+}
+
+.newtask_Status ul li .ma-dark-title {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--ma-primarymain-color);
+  padding-bottom: 8px;
+  position: relative;
+}
+
+.ma-bullet:before {
+  content: "";
+  position: absolute;
+  width: 9px;
+  height: 9px;
+  left: -15px;
+  top: 3px;
+  border-radius: 50px;
+}
+
+.ma-bullet-green:before {
+  background: #36b37e;
+}
+
+.ma-bullet-orange:before {
+  background: #ff5630;
+}
+
+.ma-bullet-yellow:before {
+  background: #ffab00;
+}
+
+.ma-bullet-blue:before {
+  background: #2c42b5;
+}
+
+.newtask_Status ul li .ma-light-title {
+  font-weight: 400;
+  font-size: 14px;
+  color: var(--ma-gray-color);
+}
+
+.timeline_txt {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  color: #8c8da3;
+  margin-bottom: 0;
+}
+
+.green_Dot {
+  width: 9px;
+  height: 9px;
+  background: #36b37e;
+  border-radius: 5px;
+  margin-left: 15px;
+  margin-top: 20px;
+}
+
+.box_Container222,
+.box_Container3 {
+  width: 1250px;
+  height: 200px;
+  background: #f9f9fb;
+  border: 1px solid #e8e8ed;
+  box-sizing: border-box;
+  margin-left: 35px;
+  margin-top: 25px;
+  border-radius: 4px;
+}
+
+.orange_Dot {
+  width: 9px;
+  height: 9px;
+  background: #ffab00;
+  border-radius: 5px;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+
+.edit_Icon {
+  left: 10px;
+  top: 8px;
+  background: var(--ma-white-color);
+}
+.delete_Icon {
+  left: 10px;
+  top: 12.5%;
+}
+
+.ma-shadow-hide .show_task {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 77%;
+}
+
+/* meetings */
+
+.Newmeet_text {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+  color: var(--ma-primarymain-color);
+  margin-bottom: 0;
+}
+
+.ma-shadow-hide,
+.ma-mainShadow-box .ma-shadow-hide {
+  box-shadow: none !important;
+  box-shadow: 1px 5px 12px 0px rgba(0, 0, 0, 0.07) !important;
+  border-radius: 0 !important;
+}
+
+.ma-meet-img span img {
+  max-width: 50px;
+  width: 50px;
+  height: 50px;
+  margin-right: 15px;
+  /* flex: 1; */
+}
+
+.ma-meeting-schedule {
+  display: flex;
+  align-items: center;
+}
+
+.Zoomvedio_Text {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 18px;
+  color: #191a47;
+  width: 100%;
+  word-wrap: break-word;
+  padding-top: 15px;
+}
+
+.Newmeet_text_link {
+  font-weight: 400;
+  color: var(--ma-darksecondary-color);
+  font-size: 12px;
+  word-break: break-word;
+}
+
+.Newmeet_container {
+  width: 100%;
+  max-width: 77%;
+  background: #f9f9fb;
+  border: 1px solid #e8e8ed;
+  box-sizing: border-box;
+  border-radius: 4px;
+  padding: 25px;
+  margin-bottom: 20px;
+}
+
+.Newmeet_container:last-child {
+  margin-bottom: 0;
+}
+
+.ma-deleteMeet-popup-cancel {
+  color: var(--ma-primarymain-color);
+  border-color: var(--ma-lightgray-color);
+  text-transform: initial;
+  padding: 2px;
+  border-radius: 4px;
+}
+
+.ma-connect-icon {
+  margin-bottom: 0;
+  font-size: 12px;
+  color: var(--ma-gray-color);
+}
+
+.ma-export-file {
+  max-width: 500px;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+}
+
+.ma-connect-icon svg {
+  font-size: 18px;
+  margin-right: 5px;
+  margin-top: 5px;
+}
+
+.ma-connect-app {
+  margin-bottom: 0;
+  padding-top: 10px;
+  font-weight: 500;
+  color: var(--ma-primarymain-color);
+}
+
+.ma-shadow-hide .open_Tasks_txt {
+  margin-top: 30px;
+  margin-bottom: 24px;
+  color: var(--ma-primarymain-color);
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.appBox {
+  box-sizing: border-box;
+  min-height: 157px;
+  background: #ffffff;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+/* calls */
+
+.Schedulecalls_txt,
+.Schedulecalls_txt1,
+.Schedulecalls_txt2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 550;
+  font-size: 14px;
+  color: #191a47;
+}
+
+.Schedulecalls_txt1 {
+  margin-left: 20px;
+  margin-right: 725px;
+  margin-bottom: 10px;
+  margin-top: 25px;
+}
+
+.Schedulecalls_txt2 {
+  margin-left: 20px;
+  margin-right: 685px;
+  margin-bottom: 10px;
+  margin-top: 25px;
+}
+
+.john_Green_txt {
+  color: #2c42b5;
+}
+
+.calls_Time {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  color: var(--ma-primarymain-color);
+}
+
+.calls_Time span {
+  font-weight: 600;
+}
+
+.schedule_Calls_container {
+  width: 100%;
+  max-width: 77%;
+  min-width: 77%;
+  background: #f9f9fb;
+  border: 1px solid #e8e8ed;
+  box-sizing: border-box;
+  border-radius: 4px;
+  padding: 25px 25px 10px;
+  margin-bottom: 20px;
+}
+
+.schedule_Calls_container:last-child {
+  margin-bottom: 0;
+}
+
+.blue_Dot {
+  width: 9px;
+  height: 9px;
+  background: #2c42b5;
+  border-radius: 5px;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+
+.orange_Dot_Calls {
+  width: 9px;
+  height: 9px;
+  background: #ffab00;
+  border-radius: 5px;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+
+.ma-deletePopup-box div .ma-root {
+  margin-bottom: 0px;
+  font-weight: 600;
+  font-size: 22px;
+  color: var(--ma-primarymain-color);
+  padding: 16px 24px;
+  padding-bottom: 0;
+  line-height: 1.6;
+  letter-spacing: 0.0075em;
+}
+
+.ma-deletePopup-box div p {
+  color: var(--ma-secondarytext-color);
+  font-size: 14px;
+  font-weight: 400;
+  padding-bottom: 15px;
+}
+
+.ma-delete-noBtn {
+  border: 1px solid #d1d1da !important;
+  border-radius: 4;
+  color: #303159 !important;
+  height: 42px;
+  width: 112px;
+  text-transform: none !important;
+  min-width: 64px;
+}
+
+.ma-read-more-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 15px 0px 0px;
+}
+
+.ma-read-more-btn {
+  display: block;
+  cursor: pointer;
+  color: #2c42b5;
+}
+
+.ma-read-more-container svg {
+  color: #2c42b5 !important;
+  margin-left: 5px;
+}
+
+.ma-calls-description {
+  color: #5e5f7e;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.ma-delete-yesBtn {
+  /* background-color: #ec627b !important; */
+  border-radius: 4;
+  /* color: #fff !important; */
+  height: 42px;
+  width: 112px;
+  margin-left: 14px !important;
+  text-transform: none !important;
+  min-width: 64px;
+}
+
+.ma-del-cancel:hover {
+  background: var(--ma-bglight-color);
+  border-color: var(--ma-lightgray-color);
+}
+
+.ma-del-cancel {
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  color: var(--ma-primarymain-color);
+  text-transform: capitalize;
+  font-size: 16px;
+  transition: all 0.5s;
+  display: inline-block;
+  border: 1px solid var(--ma-tableborder-color);
+  min-width: 120px;
+  max-width: 120px;
+  width: 100%;
+  line-height: 26px;
+  background: var(--ma-white-color);
+}
+
+.ma-del-applay {
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  box-shadow: none;
+  text-transform: capitalize;
+  font-size: 16px;
+  min-width: 100px;
+  max-width: 130px;
+  width: 100%;
+  line-height: 26px;
+  margin-right: 15px;
+}
+
+.ma-del-applay {
+  background: var(--ma-mainbtn-color) !important;
+  color: var(--ma-white-color);
+}
+
+.MuiLoadingButton-root.ma-yesBtn-domain {
+  /* background-color: #ff542e !important; */
+  border-radius: 4;
+  /* color: #fff !important; */
+  height: 42px;
+  width: 112px;
+  min-width: 100px;
+  max-width: 130px;
+  margin-left: 14px !important;
+  text-transform: none !important;
+  min-width: 64px;
+}

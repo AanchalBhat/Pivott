@@ -1,0 +1,109 @@
+.ma-sMail-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #F2F6FC;
+    padding: 10px 15px;
+    bottom: 0;
+}
+
+.ma-sMail-title h6 {
+    margin-bottom: 0;
+    color: #0e2745;
+    font-size: 14px;
+}
+
+.ma-sMail-title span svg {
+    font-size: 18px;
+    margin-left: 5px;
+    color: #0e2745;
+    cursor: pointer;
+}
+
+.ma-emailMain-sec {
+    padding: 15px;
+}
+
+.ma-mailPopup-size .MuiPopover-paper {
+    max-width: 600px;
+    width: 100%;
+     left: 0 !important;
+    right: 0 !important;
+    margin: auto; 
+}
+
+.ma-mailPopupMaxSize .MuiPopover-paper {
+    max-width: 80%;
+    width: 100%;
+    left: 0px !important;
+    right: 0px !important;
+    margin: auto; 
+}
+.ma-expandPosition .MuiPopover-paper {
+    top: auto !important;
+    bottom: 0px !important;
+    margin: inherit;
+    margin-left: auto;
+    margin-right: 1.8rem;
+    width:20%;
+}
+
+.ma-sendFromto-mail .MuiInputBase-formControl {
+    padding: 0 0 10px;
+}
+
+.ma-sendFromto-mail .MuiInputBase-formControl p {
+    font-size: 14px;
+}
+
+.ma-sendFromto-mail .MuiInputBase-formControl:before {
+    border-bottom: 1px solid #d9d9d9;
+}
+
+.ma-Subject-mail .MuiInputBase-formControl {
+    padding: 10px 0;
+}
+
+.ma-Subject-mail .MuiInputBase-formControl:before {
+    border-bottom: 1px solid #d9d9d9;
+}
+
+.ma-textarea-multi {
+    min-height: 300px;
+}
+
+.ma-textarea-multi fieldset.MuiOutlinedInput-notchedOutline {
+    border-color: transparent !important;
+}
+
+.ma-textarea-multi fieldset.MuiOutlinedInput-notchedOutline:hover,
+.ma-textarea-multi fieldset.MuiOutlinedInput-notchedOutline:focus {
+    border-color: transparent !important;
+}
+.ma-textArea-mail .trix-editor{
+    font-size: 14px;
+    padding:10px 5px !important;
+}
+
+trix-editor .attachment__toolbar {
+    text-align: end !important;
+}
+
+trix-editor .attachment__progress {
+    display: none !important;
+}
+
+trix-toolbar .trix-button-group,
+trix-toolbar .trix-button,
+trix-editor {
+    border: none !important;
+}
+trix-toolbar .trix-button-row {
+    font-size: small !important;
+}
+.toolbox{
+    margin-top: 10px;
+}
+.sendbtn-padding{
+    padding: 0.375rem 1.75rem;
+}

@@ -1,0 +1,17 @@
+.field_Text {
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--ma-primarymain-color);
+    margin-top: 6px;
+    margin-left: 30px;
+}
+
+.paragraph_Text {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    margin-left: 30px;
+    margin-top: 10px;
+    color: #535370;
+}

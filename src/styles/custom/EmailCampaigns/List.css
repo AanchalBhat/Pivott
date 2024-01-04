@@ -1,0 +1,223 @@
+.ma-emailMainTop-box {
+  min-height: 100vh;
+}
+
+.ma-emailMainShadow-box {
+  background: var(--ma-white-color);
+  box-shadow: 1px 5px 12px 0px rgba(0, 0, 0, 0.07);
+  border-radius: 4px;
+}
+
+.ma-emailMainShadow-box .ma-paper-shadow {
+  box-shadow: none;
+  border: 0;
+}
+
+.campaign-searchFilterDiv .iconDiv {
+  background: var(--ma-white-color);
+  border: 1px solid var(--ma-lightgray-color);
+  border-radius: 8px;
+  height: 34px;
+  margin-left: 5px;
+}
+
+.campaign-searchFilterDiv {
+  display: flex;
+  justify-content: space-between;
+  background: var(--ma-tablebg-color);
+  align-items: center;
+  padding: 10px 15px;
+  border-top: 1px solid var(--ma-tableborder-color);
+}
+
+.campaign-searchFilterDiv .searchField p {
+  width: 240px;
+  margin: 0 !important;
+}
+
+.campaign-searchFilterDiv .filterSelect {
+  min-width: fit-content;
+  border-radius: 8px;
+  background: var(--ma-white-color);
+  font-family: "Poppins", sans-serif;
+  color: var(--ma-primarymain-color);
+  font-weight: 500;
+  font-size: 14px;
+  margin-right: 15px;
+  height: 34px;
+}
+
+.campaign-searchFilterDiv .filterSelect>div {
+  padding: 4px 10px;
+  font-weight: 500;
+}
+
+.ma-campaignActions-bar {
+  background: var(--ma-tablebg-color);
+  flex-direction: row;
+  display: flex;
+  justify-content: flex-end;
+  padding: 4px 8px;
+}
+
+
+.ma-campaignActions-bar .dropdown .dropdown-toggle {
+  font-size: 14px;
+  font-weight: 500;
+  padding: 4px 8px;
+  height: 34px;
+  margin-right: 5px;
+}
+
+.ma-campaignActions-bar .dropdown .dropdown-toggle:hover,
+.ma-campaignActions-bar .dropdown .dropdown-toggle:active,
+.ma-campaignActions-bar .dropdown .dropdown-toggle:focus {
+  background: var(--ma-white-color);
+  color: var(--ma-primarymain-color);
+  border-color: var(--ma-tableborder-color);
+}
+
+.ma-campaignActions-bar button {
+  font-family: "Poppins", sans-serif;
+  border: 1px solid var(--ma-lightgray-color);
+  background: var(--ma-white-color);
+  border-radius: 8px;
+  color: var(--ma-primarymain-color);
+  align-items: center;
+  display: flex;
+  text-transform: capitalize;
+  font-weight: 500;
+  font-size: 14px;
+  min-width: fit-content;
+  padding: 4px 8px;
+}
+
+.ma-campaignActions-bar button:last-child {
+  margin-right: 0;
+  min-width: fit-content;
+  font-size: 14px;
+  padding: 4px 5px;
+}
+
+.ma-campaignActions-bar .ma-convert {
+  text-transform: capitalize;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22px;
+  color: var(--ma-primarymain-color);
+  font-size: 14px;
+  box-shadow: none;
+}
+
+.ma-campaignActions-bar .ma-convert:hover {
+  box-shadow: none;
+}
+
+.dropdown-toggle::after {
+  display: none !important;
+}
+
+.ma-campaignActions-bar .ma-dropdown-design .dropdown .dropdown-toggle {
+  border: 1px solid var(--ma-lightgray-color);
+  border-radius: 8px;
+}
+
+.ma-campaignActions-bar .ma-dropdown-design .dropdown span svg {
+  margin-left: 24px;
+}
+
+.ma-campaign-nameRow {
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.ma-campaign-nameTable {
+  display: flex;
+  margin-left: 7px;
+}
+
+.ma-campaign-userName {
+  color: #191A47;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.ma-campaign-iconTable {
+  color: #8C8DA3;
+}
+
+
+/* status css */
+.overview-status-class {
+  display: inline-flex;
+  padding: 2px 14px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  text-align: center;
+  margin-left: 12px;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.campaign-heading {
+  padding-right: 12px;
+  border-right: 1px solid var(--ma-tableborder-color);
+  font-size: 20px;
+  font-weight: 500;
+  color: var(--ma-primarymain-color);
+}
+
+.ma-sent,
+.ma-Sent {
+  color: var(--ma-sentgreen-color);
+  background-color: var(--ma-sentbg-color);
+  border: 1px solid var(--ma-sentgreen-color);
+}
+
+.ma-sending,
+.ma-Sending {
+  color: var(--ma-darkbrown-color);
+  background-color: var(--ma-yellowbg-color);
+  border: 1px solid var(--ma-yellow-color);
+}
+
+.ma-scheduled,
+.ma-Scheduled {
+  color: var(--ma-schedule-color);
+  background-color: var(--ma-schedulebg-color);
+  border: 1px solid var(--ma-schedule-color);
+}
+
+.ma-draft,
+.ma-Draft {
+  color: var(--ma-draft-color);
+  background-color: var(--ma-draftbg-color);
+  border: 1px solid var(--ma-lightgray-color);
+}
+
+.ma-cancelled,
+.ma-Cancelled {
+  color: var(--ma-cancel-color);
+  background-color: var(--ma-cancelbg-color);
+  border: 1px solid var(--ma-cancel-color);
+}
+
+/* draft status css */
+.draft-status {
+  color: var(--ma-draft-color);
+  background-color: var(--ma-draftbg-color);
+  border: 1px solid var(--ma-lightgray-color);
+}
+
+.ma-campaignDivider-bar {
+  border-bottom: 1px solid var(--ma-tableborder-color);
+  border-top: 1px solid var(--ma-tableborder-color);
+  padding: 15px !important;
+}

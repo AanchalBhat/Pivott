@@ -1,0 +1,110 @@
+<!Doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Marketing Automation App</title>
+    <link href="../src/globalCSS/common.css" rel="stylesheet" />
+
+    <style>
+        * {
+            font-family: "Poppins", sans-serif !important;
+        }
+
+        .ma-404container {
+            width: 100vw;
+            height: 80vh;
+            max-width: 100vw;
+            max-height: 80vh;
+            box-sizing: border-box;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .ma-404-box {
+            margin-top: 10vh;
+            margin-bottom: 10vh;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .ma-404-box h1 {
+            font-size: 50px;
+            font-weight: 600;
+        }
+
+        .ma-404-box .img-fluid {
+            width: 500px;
+            height: 300px;
+            transform: scale(1.2);
+            position: relative;
+            top: 0;
+            left: 0;
+            z-index: -1;
+        }
+
+        .ma-404Content-box h2 {
+            font-weight: 400;
+        }
+
+        .ma-404Content-box p {
+            font-size: 16px;
+            font-weight: 300;
+            color: #444;
+            width: 600px;
+            line-height: 2;
+        }
+
+
+        .ma-404Content-box a {
+            background: #00bda4;
+            padding: 10px 20px;
+            display: inline-block;
+            color: #fff;
+            margin-top: 10px;
+            border-radius: 4px;
+            font-size: 16px;
+            transition: 0.5s ease;
+            text-decoration: none;
+            font-weight: 600;
+            cursor: pointer;
+        }
+
+        .ma-404Content-box a:hover {
+            box-shadow: inset 180px 0px 5px #000;
+        }
+
+        /* end */
+    </style>
+    <script>
+        function goBackHome() {
+            const domain = localStorage.getItem("COMPANY_DOMAIN");
+            if(!domain)
+                window.location.href = window.location.origin
+            else
+                window.location.href = window.location.origin + "/dashboard"
+        }
+    </script>
+</head>
+
+<body>
+    <div class="ma-404container">
+        <div class="ma-404-box">
+            <h1>Whoops!</h1>
+            <img src="../src/assets/404-page.svg" alt="image 404" class="img-fluid">
+            <div class="ma-404Content-box">
+                <h2>Page Not Found</h2>
+                <p>The page you are looking for might not exists or is not available right now. Please check the URL
+                    mistakes and try again.</p>
+                <a onclick="goBackHome()">Back to Home</a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

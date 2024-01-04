@@ -1,0 +1,56 @@
+.ma-reports-nameRow {
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.ma-reports-nameTable {
+    display: flex;
+    margin-left: 7px;
+}
+
+.ma-reports-userName {
+    color: #2C42B5;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.ma-reports-iconTable {
+    color: #8C8DA3;
+}
+
+
+
+.ma-reports-desc {
+    font-size: 14px;
+    font-weight: 400;
+    color: #191A47;
+}
+
+.ma-reports-ownerTag {
+    background: #F1F1F4;
+    border-radius: 0px;
+    font-weight: 500;
+    color: #191A47;
+    font-size: 14px;
+    padding: 6px 12px;
+}
+
+
+.ma-reports-exportPopup {
+    padding: 30px;
+    border-radius: 12px;
+    border: 1px solid #333;
+    align-self: center;
+}
+
+.ma-reports-allfilter-list {
+    display: flex;
+    align-items: center;
+    font-family: "Poppins", sans-serif !important;
+    justify-content: space-between;
+    width: 100%;
+}

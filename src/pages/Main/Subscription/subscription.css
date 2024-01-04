@@ -1,0 +1,50 @@
+html body .cancelbtn {
+  color: var(--ma-primarymain-color);
+  text-transform: capitalize;
+  font-family: "Poppins", sans-serif !important;
+  font-weight: 600;
+  border: 1px solid var(--ma-lightgray-color);
+  width: 100%;
+  min-width: fit-content;
+  max-width: fit-content;
+  height: 42px;
+  transition: all 0.5s;
+  padding: 0 15px !important;
+}
+
+html body .cancelbtn:hover {
+  background: var(--ma-primarymain-color);
+  color: var(--ma-white-color);
+  border: 1px solid var(--ma-primarymain-color);
+}
+
+.saveButton {
+    background: var(--ma-mainbtn-color);
+    border-radius: 4px;
+    width: 100%;
+    min-width: 150px;
+    max-width: 150px;
+    height: 42px;
+    color: var(--ma-white-color);
+    font-weight: 600;
+    line-height: 24px;
+    font-family: "Poppins", sans-serif !important;
+    box-shadow: none !important;
+    cursor: pointer;
+  }
+  .delete_icon_btn {
+    width: 34px;
+    height: 34px;
+    background: var(--ma-white-color);
+    border: 1px solid #d1d1da;
+    border-radius: 8px;
+  }
+
+  .delete_icon_btn svg {
+    font-size: 20px;
+    color: var(--ma-primarymain-color);
+  }
+  
+  .delete_icon_btn img {
+    width: 14px;
+  }

@@ -1,0 +1,34 @@
+.ma-convertEdit-bar {
+    background: var(--ma-tablebg-color);
+    flex-direction: row;
+    display: flex;
+    justify-content:flex-end;
+    /* border: 1px solid var(--ma-tableborder-color);
+    border-left: 0px;
+    border-right: 0px; */
+}
+
+.ma-convertEdit-bar button {
+    font-family: 'Poppins', sans-serif;
+    border: 1px solid var(--ma-lightgray-color);
+    background: var(--ma-white-color);
+    border-radius: 8px;
+    color: var(--ma-primarymain-color);
+    align-items: center;
+    display: flex;
+    text-transform: capitalize;
+    font-weight: 500;
+    font-size: 14px;
+    min-width: fit-content;
+    padding: 4px 8px;
+}
+
+.dropdown-toggle::after {
+    display: none !important;
+}
+
+.ma-convertEdit-bar .show .dropdown .show>.btn-primary.dropdown-toggle {
+    color: var(--ma-primarymain-color);
+    background-color: none !important;
+    border-color: none;
+}

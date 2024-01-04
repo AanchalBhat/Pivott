@@ -1,0 +1,61 @@
+.createlead-buttons__Upgradbutton {
+  background: var(--ma-mainbtn-color);
+  border-radius: 33px !important;
+  width: 100%;
+  max-width: 110px;
+  height: 36px;
+  color: var(--ma-white-color) !important;
+  font-weight: 600;
+  line-height: 24px;
+  font-family: 'Poppins', sans-serif !important;
+  box-shadow: none;
+}
+
+.profilePreference {
+  color: '#2C42B5';
+  font-Size: 14px;
+  font-weight: 500;
+  cursor: pointer
+}
+
+.horizontal-divider {
+  border: 1px solid#d9d6d6;
+  margin: 0;
+  /* background-color:#d9d6d6; */
+}
+
+.ma-profile-popup p {
+  padding: 8px 0;
+}
+
+.ma-profilePopup-holder .MuiPaper-root {
+  box-shadow: none;
+  box-shadow: -6px 17px 33px 0px rgba(0, 0, 0, 0.20);
+  padding: 0;
+  border-radius: 4px !important;
+}
+
+
+.ma-profilePopup-holder .ma-topShape-popup {
+  margin-top: 40px;
+}
+
+.ma-topShape-popup:before {
+  content: " ";
+  position: fixed;
+  right: 30px;
+  top: 30px;
+  transform: rotate(180deg);
+  background-color: transparent;
+  width: 30px;
+  height: 52px;
+  z-index: 0;
+  border-bottom: none;
+  border-right: 15px solid transparent;
+  border-left: 15px solid transparent;
+  border-top: 15px solid white;
+}
+
+.ma-profilePopup-holder .MuiPaper-root>.MuiBox-root {
+  padding: 12px 20px;
+}

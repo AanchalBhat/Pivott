@@ -1,0 +1,182 @@
+.kanban-desc {
+  height: 32px;
+  width: 100%;
+  max-width: fit-content;
+  border-radius: 20px;
+  background: #e5fff4;
+  border: 1px solid white;
+  align-items: center;
+  display: flex;
+  justify-content: flex-start;
+  margin: 15px 0;
+  padding: 5px 10px 5px 5px;
+}
+
+.react-kanban-column-header .col-title {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  color: #29008A;
+  border: 1px solid #D8CBF6;
+  background: #E7DDFF;
+  text-transform: uppercase;
+}
+
+.react-kanban-column:nth-of-type(2) .react-kanban-column-header span .col-title {
+  background-color: #FFF0C3;
+  color: #8F700E;
+  border: 1px solid #F1E0AC;
+}
+
+.react-kanban-column:nth-of-type(3) .react-kanban-column-header span .col-title {
+  background-color: #D8F6FF;
+  color: #03A8DA;
+  border: 1px solid #BEEDFB;
+}
+
+.react-kanban-column:nth-of-type(4) .react-kanban-column-header span .col-title {
+  background-color: #FFEDF1;
+  color: #EC627B;
+  border: 1px solid #FDDCE3;
+}
+
+.react-kanban-column:nth-of-type(5) .react-kanban-column-header span .col-title {
+  background-color: #D0F6E6;
+  color: #36B37E;
+  border: 1px solid #A4E9CC;
+}
+
+.col-heading {
+  font-size: 12px;
+  padding-left: 10px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-bottom: 10px;
+  color: #5e5f7e;
+  border-bottom: 1px solid #E8E8ED;
+  padding-bottom: 10px;
+}
+.title {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #191a47;
+}
+.title-desc {
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #47486c;
+}
+.image-desc {
+  margin: 1px 2px 2px 2px;
+  height: 24px;
+  width: 24px;
+  border-radius: 14px;
+}
+.amt {
+  color: #36b37e;
+  margin: 4px 0px 4px 9px;
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.icon-desc {
+  display: inline-flex;
+  justify-content: center;
+  height: 30px;
+  align-items: center;
+  width: 30px;
+  border-radius: 50%;
+  background: #F1F1F4;
+  border: 1px solid #E8E8ED;
+}
+
+.icons {
+  position: relative;
+ }
+
+
+.number-desc {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+  color: #5e5f7e;
+  position: relative;
+  text-align: center;
+  padding-bottom: 5px;
+}
+.react-kanban-column{
+    position: relative;
+    padding: 15px;
+}
+.ma-board-main{
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+}
+.react-kanban-board{
+  max-height: calc(100vh - 250px);
+  min-height: calc(100vh - 250px);
+  position: relative;
+
+  height: 100%;
+  overflow: auto !important;
+}
+.react-kanban-card-adder-button {
+  position: absolute;
+  right: 5px;
+  top: 15px;
+  width: auto;
+  border: 0;
+  padding: 0 30px;
+  color: #03a8da;
+}
+.react-kanban-card-adder-button:hover {
+  background-color: #f1f1f400;
+}
+
+.react-kanban-card {
+  height: calc(100% - 0px);
+  padding: 12px;
+  margin-bottom: 30px;
+  box-shadow: 2px 3px 6px 2px #0000000d;
+  position: relative;
+  border-radius: 6px;
+  min-width: 236px;
+  max-width: 236px;
+
+}
+
+.react-kanban-card__title {
+  border-bottom: 0;
+  padding-bottom: 0;
+  text-transform: capitalize;
+}
+.react-kanban-card__description{
+  padding-top: 0;
+}
+.react-kanban-column{
+  background: transparent;
+  margin: 0;
+
+}
+.react-kanban-board{
+  padding: 0;
+  background: var(--ma-bgcolor-color);
+}

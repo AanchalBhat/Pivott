@@ -1,0 +1,58 @@
+.ma-mainTop-box {
+  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.07);
+  background: var(--ma-bglight-color);
+}
+
+/* status css */
+.status-class {
+  display: inline-flex;
+  padding: 4px 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.status-class p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.ma-sent {
+  color: var(--ma-sentgreen-color);
+  background-color: var(--ma-sentbg-color);
+  border: 2px solid var(--ma-sentgreen-color);
+}
+
+.ma-sending {
+  color: var(--ma-darkbrown-color);
+  background-color: var(--ma-yellowbg-color);
+  border: 2px solid var(--ma-yellow-color);
+}
+
+.ma-scheduled {
+  color: var(--ma-schedule-color);
+  background-color: var(--ma-schedulebg-color);
+  border: 2px solid var(--ma-schedule-color);
+}
+
+.ma-draft {
+  color: var(--ma-draft-color);
+  background-color: var(--ma-draftbg-color);
+  border: 2px solid var(--ma-lightgray-color);
+}
+
+.ma-cancelled {
+  color: var(--ma-cancel-color);
+  background-color: var(--ma-cancelbg-color);
+  border: 2px solid var(--ma-cancel-color);
+}
+
+/* draft status css */
+.draft-status {
+  color: var(--ma-draft-color);
+  background-color: var(--ma-draftbg-color);
+  border: 2px solid var(--ma-lightgray-color);
+}

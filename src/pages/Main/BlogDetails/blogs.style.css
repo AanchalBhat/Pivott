@@ -1,0 +1,42 @@
+.ps-detail-content ul li h6 {
+    font-weight: 600;
+    margin: 30px 0px 10px;
+}
+
+.ps-detail-content b {
+    font-weight: 600;
+}
+
+.ps-listStyle-class {
+    margin: 20px 0px !important;
+}
+
+.ps-listStyle-class li {
+    list-style-type: disc;
+    margin: 5px 40px;
+}
+
+.blog-img-holder {
+    width: 100%;
+    height: 100%;
+    /* padding: 10px; */
+    /* text-align: center; */
+}
+
+.blog-img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    /* max-width: 350px;
+    max-height: 350px; */
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.best_sales {
+    color: #2eabae;
+    text-decoration: underline;
+    cursor: pointer;
+    font-weight: 500;
+}

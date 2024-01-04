@@ -1,0 +1,126 @@
+.schedulebtn_bg {
+    width: 140px;
+    height: 41.96px;
+    background: var(--ma-mainbtn-color);
+    border-radius: 4px;
+    border: 0;
+    color: #FFFFFF;
+}
+
+.schedulebtn_text {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.ma-calls-field {
+    padding: 10px 18px 30px 18px;
+}
+
+.duedate_textfield {
+    width: 175px;
+    width: 100%;
+}
+
+.ma-calls-field .duedate_text {
+    font-family: "Poppins", sans-serif !important;
+    color: #8c8da3;
+    font-size: 14px;
+}
+
+.duedate_textfield svg {
+    color: var(--ma-primarymain-color);
+}
+
+.cancelbtn_bg {
+    width: 120px;
+    height: 41.96px;
+    background: #FFFFFF;
+    border: 1px solid #D1D1DA;
+    border-radius: 4px;
+}
+
+.duedate_text1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #8C8DA3;
+    margin-bottom: 10px;
+}
+
+.cancelbtn_text {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #191A47;
+}
+
+/* additional or missing css */
+
+.ma-popupAll-side {
+    max-width: 410px;
+    min-width: 410px;
+    width: 100%;
+    box-shadow: none !important;
+}
+
+.createtask_btn {
+    background: #191A47;
+    width: 410px;
+    padding: 20px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 0;
+}
+
+.createtask_txt {
+    color: #FFFFFF;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+
+}
+
+.filldetails_txt {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #191A47;
+    margin: 15px 0 5px;
+    padding-left: 16px;
+}
+
+
+.cancel_btn {
+    width: 120px;
+    height: 41.96px;
+    background: #FFFFFF;
+    border: 1px solid #D1D1DA;
+    border-radius: 4px;
+    font-weight: 600;
+  }
+  
+  .cancel_btn:hover {
+    background-color: var(--ma-tableborder-color);
+    color: var(--ma-primarymain-color);
+  }
+  
+  .cancel_btn_txt {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    color: #191A47;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  

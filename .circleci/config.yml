@@ -1,0 +1,79 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: cimg/node:16.20.0
+    steps:
+      - checkout
+      - restore_cache:
+          name: Restore Yarn Package Cache
+          keys:
+            - yarn-packages-{{ checksum "yarn.lock" }}
+      - run:
+          name: Install Dependencies
+          command: yarn install --frozen-lockfile --cache-folder ~/.cache/yarn
+      - save_cache:
+          name: Save Yarn Package Cache
+          key: yarn-packages-{{ checksum "yarn.lock" }}
+          paths:
+            - ~/.cache/yarn
+      - run: CI=false yarn run build
+      # - run:
+      #     name: Run Tests
+      #     command: yarn test:coverage
+      - run: yarn run lint
+  deploy_staging:
+    docker:
+      - image: cimg/node:16.20.0
+    parameters:
+      env:
+        type: string
+        default: "staging"
+    steps:
+      - checkout
+      - run: yarn install --frozen-lockfile --cache-folder ~/.cache/yarn
+      - run: npm install -g firebase-tools firebase
+      - run:
+          name: creating staging build
+          command: CI=false yarn run build:staging
+      - run:
+          name: deploy to staging
+          command: firebase deploy --token=$FIREBASE_TOKEN --non-interactive --only hosting:staging
+  deploy_production:
+    docker:
+      - image: cimg/node:16.20.0
+    parameters:
+      env:
+        type: string
+        default: "production"
+    steps:
+      - checkout
+      - run: yarn install --frozen-lockfile --cache-folder ~/.cache/yarn
+      - run: npm install -g firebase-tools firebase
+      - run:
+          name: creating production build
+          command: CI=false yarn run build:production
+      - run:
+          name: deploy to production
+          command: firebase deploy --token=$FIREBASE_TOKEN --non-interactive --only hosting:production
+    filters:
+      tags:
+        only: /.*/
+workflows:
+  version: 2
+  build-deploy:
+    jobs:
+      - build
+      - deploy_staging:
+          requires:
+            - build
+          filters:
+            branches:
+              only: develop
+
+      - deploy_production:
+          requires:
+            - build
+          filters:
+            branches:
+              only: main
